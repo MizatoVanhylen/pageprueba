@@ -1,0 +1,56 @@
+.banner-hp{
+  position: relative;
+}
+.lc-banner {
+  display: flex; 
+  justify-content: center; 
+}
+.lc-banner{
+  width: 2000px;
+  height: 300px;
+}
+.buttons{
+  position: absolute;
+  bottom: 15px;
+  left: 35%;-
+}
+.btn-header{
+  background-color: darkgoldenrod;
+  color: black;
+  height: 30px;
+  width: 150px;
+  border-radius: 80px;
+  font-size:20px;
+  font-weight: bold;
+  margin-right: 80px;
+}
+.inicio{display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.input-field-pass{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-left: 19px;
+}
+
+.sesion{
+  color: yellow;
+}
+.data{
+  color: yellow;
+  margin-left: 20px;
+}
+
+.login-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  }
+
+
