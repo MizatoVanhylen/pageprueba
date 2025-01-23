@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <script src="./javascrip/index.js"></script>
+<head>
+  <title>Biográfia, Bestiario y Relatos</title>
+</head>
+<body>
+  <header>
+    <div class="banner-hp">
+      <img src="./img/banner.jpg" alt="banner" class="lc-banner">
+      <div class="buttons">
+        <a href="index.html" class="bttn">
+          <button type="button" class="btn btn-header">Biografía</button>
+        </a>
+        <a href="bestiario.html" class="bttn" >
+          <button type="button" class="btn btn-header">Bestiario</button>
+        </a>
+        <a href="relatos.html" class="bttn">
+          <button type="button" class="btn btn-header">Relatos</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="inicio">
+    <h1 class="title">Biográfia, Bestiario y Relatos</h1>
+    <div class="login-container">
+      <h2 class="sesion">Iniciar Sesión o Registrarse</h2>
+      <div class="input-field">
+        <label class="data" for="username">Usuario:</label>
+        <input class="data-user" type="text" id="username" placeholder="Ingresa tu usuario">
+      </div>
+      <div class="input-field-pass">
+        <label class="data" for="password">Contraseña:</label>
+        <input class="data-pass" type="password" id="password" placeholder="Ingresa tu contraseña">
+      </div>
+      <button class="button" onclick="login()">Iniciar Sesión</button>
+      <button class="button" onclick="register()">Registrarse</button>
+      <p class="error" id="error-message"></p>
+    </div>
+  </div>
+    <h1 class="titulobtas">Bestiario</h1>
+        <h2><p class="hdos">Cthulhu ("La llamada de Cthulhu")</p></h2>
+        <div class="div-principal">
+          <div class="prim">
+            <p>Cthulhu es un dios Primigenio que debutó en el relato La llamada de Cthulhu, de Howard Phillips Lovecraft, publicado en 1928 en la revista Weird Tales. Según las historias de Lin Carter, la información existente sobre este ser estaría contenida principalmente en el ficticio Texto de R'lyeh.</p>
+            <P>Lovecraft describe a Cthulhu en el siguiente extracto de La Llamada de Cthulhu, en el que se alude al aspecto de una efigie que representa al dios "No estaría traicionando al espíritu de aquella cosa si digo que mi imaginación, algo calenturienta de por sí, creía percibir en ella, de forma simultánea, las figuras de un pulpo, un dragón, y una caricatura de ser humano. Una cabeza viscosa y cubierta de tentáculos destacaba sobre un cuerpo grotesco y escamoso con unas alas rudimentarias; pero era el perfil general de toda ella lo que resultaba más espantoso.". Además, cuando finalmente aparece físicamente se menciona que posee una piel viscosa y un tamaño desmesurado. Sin embargo, parece ser que Cthulhu es capaz de cambiar la forma de su cuerpo a voluntad, así como extender sus extremidades retráctiles y tentáculos como lo considere oportuno.</p>
+          </div>
+          <img  class="primigenio" src="./img/Lovecraft-cthulhu.webp">
+        </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

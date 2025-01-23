@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <script src="./javascrip/index.js"></script>
+<head>
+  <title>Biográfia, Bestiario y Relatos</title>
+</head>
+<body>
+  <header>
+    <div class="banner-hp">
+      <img src="./img/banner.jpg" alt="banner" class="lc-banner">
+      <div class="buttons">
+        <a href="index.html" class="bttn">
+          <button type="button" class="btn btn-header">Biografía</button>
+        </a>
+        <a href="bestiario.html" class="bttn" >
+          <button type="button" class="btn btn-header">Bestiario</button>
+        </a>
+        <a href="relatos.html" class="bttn">
+          <button type="button" class="btn btn-header">Relatos</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="inicio">
+    <h1 class="title">Biográfia, Bestiario y Relatos</h1>
+    <div class="login-container">
+      <h2 class="sesion">Iniciar Sesión o Registrarse</h2>
+      <div class="input-field">
+        <label class="data" for="username">Usuario:</label>
+        <input class="data-user" type="text" id="username" placeholder="Ingresa tu usuario">
+      </div>
+      <div class="input-field-pass">
+        <label class="data" for="password">Contraseña:</label>
+        <input class="data-pass" type="password" id="password" placeholder="Ingresa tu contraseña">
+      </div>
+      <button class="button" onclick="login()">Iniciar Sesión</button>
+      <button class="button" onclick="register()">Registrarse</button>
+      <p class="error" id="error-message"></p>
+    </div>
+  </div>
+    <h1 class="titulobtas">Bestiario</h1>
+        <h2><p class="hdos">Gran Raza de Yith ("La sombra sobre Innsmouth")</p></h2>
+        <div class="div-principal">
+          <div class="prim">
+            <p>La Gran Raza de Yith o yithianos es una especie extratemporal que aparece en relatos como La hermandad negra y La sombra fuera del tiempo.</p>
+            <P>"Los miembros de la Gran Raza eran inmensos conos rugosos de unos tres metros de altura, con la cabeza y otros órganos dispuestos en los extremos de una serie de miembros distensibles, de unos treinta centímetros de grosor, que se extendían a partir de sus cimas. Hablaban chasqueando o arañando sus enormes zarpas o garras, articuladas al final de dos de sus cuatro miembros, y caminaban por la expansión y contracción de una capa viscosa situada en la parte inferior de sus bases, que a su vez tenían un diámetro de casi tres metros."</p>
+          </div>
+          <img class="primigenio" src="./img/granraza.webp">
+        </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

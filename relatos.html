@@ -1,0 +1,135 @@
+8<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <script src="./javascrip/index.js"></script>
+<head>
+  <title>Biográfia, Bestiario y Relatos</title>
+</head>
+<body>
+  <body>
+    <header>
+      <div class="banner-hp">
+        <img src="./img/banner.jpg" alt="banner" class="lc-banner">
+        <div class="buttons">
+          <a href="index.html" class="bttn">
+            <button type="button" class="btn btn-header">Biografía</button>
+          </a>
+          <a href="bestiario.html" class="bttn" >
+            <button type="button" class="btn btn-header">Bestiario</button>
+          </a>
+          <a href="relatos.html" class="bttn">
+            <button type="button" class="btn btn-header">Relatos</button>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div class="inicio">
+      <h1 class="title">Biográfia, Bestiario y Relatos</h1>
+      <div class="login-container">
+        <h2 class="sesion">Iniciar Sesión o Registrarse</h2>
+        <div class="input-field">
+          <label class="data" for="username">Usuario:</label>
+          <input class="data-user" type="text" id="username" placeholder="Ingresa tu usuario">
+        </div>
+        <div class="input-field-pass">
+          <label class="data" for="password">Contraseña:</label>
+          <input class="data-pass" type="password" id="password" placeholder="Ingresa tu contraseña">
+        </div>
+        <button class="button" onclick="login()">Iniciar Sesión</button>
+        <button class="button" onclick="register()">Registrarse</button>
+        <p class="error" id="error-message"></p>
+      </div>
+    </div>
+  </div>
+    <div class="comp">
+      <div class="duo">
+      </div>
+      <div class="relatos">
+        <h1 class="titulobtas">Relatos de la Mitología de H.P Lovecraft</h1>
+        <ol>
+          <li class="list">Al otro lado de la barrera del sueño. Escrito en 1926, publicado en 1928.</li>
+          <li class="list">El alquimista (relato). Escrito en 1908, publicado en 1916.</li>
+          <li class="list">El árbol (relato). Escrito en 1920, publicado en 1921.</li>
+          <li class="list">Azathoth (cuento). Escrito en 1922, publicado en 1928.</li>
+          <li class="list">La bestia en la cueva. Escrito en 1904, publicado en 1918.</li>
+          <li class="list">El buque misterioso. Escrito en 1902, publicado en 1959.</li>
+          <li class="list">La calle (relato). Escrito en 1919, publicado en 1920.</li>
+          <li class="list">El caos reptante. Escrito en 1920, publicado en 1921.</li>
+          <li class="list">Celephaïs. Escrito en 1920, publicado en 1922.</li>
+          <li class="list">La ciénaga-luna. Escrito en 1921, publicado en 1943.</li>
+          <li class="list">La ciudad sin nombre. Escrito en 1921, publicado en 1921.</li>
+          <li class="list">La cueva secreta. Escrito en 1898, publicado en 1899.</li>
+          <li class="list">Dagón (relato). Escrito en 1917, publicado en 1919.</li>
+          <li class="list">El descendiente. Escrito en 1925, publicado en 1938.</li>
+          <li class="list">Él. Escrito en 1925, publicado en 1926.</li>
+          <li class="list">El morador de las tinieblas. Escrito en 1935, publicado en 1936.</li>
+          <li class="list">El ceremonial. Escrito en 1923, publicado en 1925.</li>
+          <li class="list">El clérigo malvado. Escrito en 1933, publicado en 1939.</li>
+          <li class="list">El color del espacio exterior. Escrito en 1927, publicado en 1927.</li>
+          <li class="list">El diario de Alonzo Typer. Escrito en 1935, publicado en 1938.</li>
+          <li class="list">El horror de Red Hook. Escrito en 1925, publicado en 1927.</li>
+          <li class="list">El libro (Lovecraft). Escrito en 1933, publicado en 1938.</li>
+          <li class="list">El miedo que acecha. Escrito en 1922, publicado en 1923.</li>
+          <li class="list">El que susurra en la oscuridad. Escrito en 1930, publicado en 1931.</li>
+          <li class="list">El sabueso. Escrito en 1922, publicado en 1924.</li>
+          <li class="list">El testimonio de Randolph Carter. Escrito en 1919, publicado en 1920.</li>
+          <li class="list">Las ratas de las paredes. Escrito en 1923, publicado en 1924.</li>
+          <li class="list">El viejo Bugs. Escrito en 1919, publicado en 1959.</li>
+          <li class="list">El viejo terrible. Escrito en 1920, publicado en 1921.</li>
+          <li class="list">En la cripta. Escrito en 1925, publicado en 1925.</li>
+          <li class="list">Encerrado con los faraones. Escrito en 1924, publicado en 1939.</li>
+          <li class="list">La dulce Ermengarde. Escrito en 1921, publicado en 1943.</li>
+          <li class="list">Ex oblivione. Escrito en 1920, publicado en 1921.</li>
+          <li class="list">El extraño. Escrito en 1921, publicado en 1926.</li>
+          <li class="list">Gente muy antigua. Escrito en 1927, publicado en 1940.</li>
+          <li class="list">Hechos tocantes al difunto Arthur Jermyn y su familia. Escrito en 1920, publicado en 1921.</li>
+          <li class="list">Herbert West: reanimador. Escrito en 1921, publicado en 1922.</li>
+          <li class="list">Hipno (relato). Escrito en 1922, publicado en 1923.</li>
+          <li class="list">Historia del Necronomicón. Escrito en 1927, publicado en 1983.</li>
+          <li class="list">El horror de Dunwich. Escrito en 1928, publicado en 1929.</li>
+          <li class="list">Horror en el museo. Publicado en 1933.</li>
+          <li class="list">El horror en la Playa Martin. Escrito en 1922, publicado en 1923.</li>
+          <li class="list">Ibid (relato). Escrito en 1927, publicado en 1938.</li>
+          <li class="list">La búsqueda de Iranon. Escrito en 1921, publicado en 1935.</li>
+          <li class="list">La transición de Juan Romero. Escrito en 1919, publicado en 1944.</li>
+          <li class="list">La botellita de cristal. Escrito en 1898, publicado en 1959.</li>
+          <li class="list">La cabellera de Medusa. Publicado en 1939.</li>
+          <li class="list">La casa evitada. Escrito en 1924, publicado en 1937.</li>
+          <li class="list">La extraña casa elevada entre la niebla. Escrito en 1926, publicado en 1931.</li>
+          <li class="list">La lámina de la casa. Escrito en 1920, publicado en 1921.</li>
+          <li class="list">La llave de plata. Escrito en 1926, publicado en 1929.</li>
+          <li class="list">La música de Erich Zann. Escrito en 1921, publicado en 1922.</li>
+          <li class="list">La nave blanca. Publicado en 1919.</li>
+          <li class="list">La llamada de Cthulhu. Escrito en 1926, publicado en 1928.</li>
+          <li class="list">Lo innominable. Escrito en 1923, publicado en 1925.</li>
+          <li class="list">Lo que trae la luna. Escrito en 1922, publicado en 1923.</li>
+          <li class="list">Los amados muertos. Escrito en 1919, publicado en 1924.</li>
+          <li class="list">Los gatos de Ulthar. Escrito en 1920, publicado en 1920.</li>
+          <li class="list">Los otros dioses. Escrito en 1921, publicado en 1933.</li>
+          <li class="list">Los sueños en la casa de la bruja. Publicado en 1933.</li>
+          <li class="list">La maldición que cayó sobre Sarnath. Escrito en 1919, publicado en 1920.</li>
+          <li class="list">Más allá de los eones. Publicado en 1935.</li>
+          <li class="list">Del más allá. Escrito en 1920, publicado en 1934.</li>
+          <li class="list">Memoria (relato). Escrito en 1919, publicado en 1923.</li>
+          <li class="list">El misterio del cementerio. Escrito en 1899, publicado en 1959.</li>
+          <li class="list">El modelo de Pickman. Escrito en 1926, publicado en 1927.</li>
+          <li class="list">Muerte alada. Escrito en 1932, publicado en 1934.</li>
+          <li class="list">Nyarlathotep (relato). Escrito en 1920, publicado en 1920.</li>
+          <li class="list">Polaris (relato). Escrito en 1918, publicado en 1920.</li>
+          <li class="list">A través de las puertas de la llave de plata. Escrito en 1933, publicado en 1934.</li>
+          <li class="list">Una semblanza del Doctor Johnson. Escrito en 1917, publicado en 1917.</li>
+          <li class="list">La sombra sobre Innsmouth. Escrito en 1931, publicado en 1936.</li>
+          <li class="list">El templo (cuento). Escrito en 1920, publicado en 1925.</li>
+          <li class="list">La tumba (Lovecraft). Escrito en 1917, publicado en 1922.</li>
+          <li class="list">La cosa en el umbral. Escrito en 1933, publicado en 1937.</li>
+        </ol>
+      </div>
+    </div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

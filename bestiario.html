@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <script src="./javascrip/index.js"></script>
+<head>
+  <title>Biografía, Bestiario y Relatos</title>
+</head>
+<body>
+  <header>
+    <div class="banner-hp">
+      <img src="./img/banner.jpg" alt="banner" class="lc-banner">
+      <div class="buttons">
+        <a href="index.html" class="bttn">
+          <button type="button" class="btn btn-header">Biografía</button>
+        </a>
+        <a href="bestiario.html" class="bttn" >
+          <button type="button" class="btn btn-header">Bestiario</button>
+        </a>
+        <a href="relatos.html" class="bttn">
+          <button type="button" class="btn btn-header">Relatos</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div class="inicio">
+    <h1 class="title">Biográfia, Bestiario y Relatos</h1>
+    <div class="login-container">
+      <h2 class="sesion">Iniciar Sesión o Registrarse</h2>
+      <div class="input-field">
+        <label class="data" for="username">Usuario:</label>
+        <input class="data-user" type="text" id="username" placeholder="Ingresa tu usuario">
+      </div>
+      <div class="input-field-pass">
+        <label class="data" for="password">Contraseña:</label>
+        <input class="data-pass" type="password" id="password" placeholder="Ingresa tu contraseña">
+      </div>
+      <button class="button" onclick="login()">Iniciar Sesión</button>
+      <button class="button" onclick="register()">Registrarse</button>
+      <p class="error" id="error-message"></p>
+    </div>
+  </div>
+      <h1 class="titulobtas">Bestiario</h1>
+        <div class="bestias">
+          <div class="btas">
+            <h3 class="htres">Hastur ("El que susurra en la obscuridad")</h3>
+            <img class="primigenio" src="./img/hastur.webp">
+            <a href="./hastur.html" class="bttns" >
+              <button type="button" class="btn btn-danger">Ver</button>  
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Pingüinos de Leng ("En las montañas de la locura")</h3>
+            <img class="primigenio" src="./img/pinguinosdeleng.webp">
+            <a href="./pinguinosdeleng.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Chaugnar Faugn ("El horror en el museo")</h3>
+            <img class="primigenio" src="./img/chaugnarfaugn.webp">
+            <a href="./chaungnarfaugn.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Tsathoggua ("El que susurra en la obscuridad")</h3>
+            <img class="primigenio" src="./img/Tsathoggua.webp">
+            <a href="./tsathoggua.html" class="bttns" > 
+            <button type="button" class="btn btn-danger">Ver</button>
+          </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Gules ("El modelo de Pickman")</h3>
+            <img class="primigenio" src="./img/Ghouls.webp">
+            <a href="./gules.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+              </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Gugos ("En busca de la Ciudad del Sol Poniente")</h3>
+            <img class="primigenio" src="./img/Gugos.webp">
+            <a href="./gugos.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Dagon ("Dagon")</h3>
+            <img class="primigenio" src="./img/dagon.webp">
+            <a href="./dagon.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Yog-Sothoth ("El horror en Dunwich")</h3>
+            <img class="primigenio" src="./img/yog-sothoth.webp">
+            <a href="./yog-sothoth.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Shoggoths ("En las montañas de la locura")</h3>
+            <img class="primigenio" src="./img/Shoggoth.webp">
+            <a href="./shoggoths.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Nocturnos ("Angeles descarnados de la noche")</h3>
+            <img class="primigenio" src="./img/nocturnos.webp">
+            <a href="./norturnos.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Rhan-Tegoth ("El horror en el museo")</h3>
+            <img class="primigenio" src="./img/Rhan.webp">
+            <a href="./rhan-tegoth.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Grandes Antiguos ("En las montañas de la locura")</h3>
+            <img  class="primigenio" src="./img/grandes antiguos.webp">
+            <a href="./grandes-antiguos.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Engendros de Cthulhu ("En las montañas de la locura")</h3>
+            <img class="primigenio" src="./img/engendro de cuthulu.jpeg">
+            <a href="./engendros-de-cthulhu.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Gran Raza de Yith ("La sombra sobre Innsmouth")</h3>
+            <img  class="primigenio" src="./img/granraza.webp">
+            <a href="./gran-raza.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Profundos ("La sombra sobre Innsmouth")</h3>
+            <img  class="primigenio" src="./img/profundos.webp">
+            <a href="./profundos.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Mi-go ("El que susurra en la obscuridad")</h3>
+            <img class="primigenio" src="./img/migo.webp">
+            <a href="./mi-go.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Nyarlathotep ("Hongos de Yuggoth")</h3>
+            <img class="primigenio" src="./img/nyarlathothep.webp">
+            <a href="./nyarlathitep.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Azathoth ("Hongos de Yuggoth")</h3>
+            <img class="primigenio" src="./img/azathoth.webp">
+            <a href="./azathoth.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Shub-Niggurath ("El que susurra en la obscuridad")</h3>
+            <img class="primigenio" src="./img/Shub-Niggurath.webp">
+            <a href="./shub-niggurath.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Bestias lunares ("En busca de la Ciudad del Sol Poniente")</h3>
+            <img class="primigenio" src="./img/MoonBeasts_29.webp">
+            <a href="./bestias-lunares.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Pólipos ("La sombra más allá del tiempo")</h3>
+            <img class="primigenio" src="./img/polipos.webp">
+            <a href="./polipos.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+          <div class="btas">
+            <h3 class="htres">Cthulhu ("La llamada de Cthulhu")</h3>
+            <img class="primigenio" src="./img/Lovecraft-cthulhu.webp">
+            <a href="./cthulhu.html" class="bttns" > 
+              <button type="button" class="btn btn-danger">Ver</button>
+            </a>
+          </div>
+        </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./carrusel.js"></script>
+  </body>
+</html>
